@@ -42,7 +42,7 @@ def delete():
     return Response(response=json.dumps(response), status=200, mimetype='application/json')
 
 if __name__ == '__main__':
-    MONGODB_URI = "mongodb+srv://jwilson:WdYjwEwtlyBWhm1S@atlascluster.a9kqbxc.mongodb.net/test"
+    MONGODB_URI = ""
     print("...Connecting to MongoDB client")
     client = MongoClient(MONGODB_URI)
     db = client.FairfieldUDW
